@@ -1,4 +1,4 @@
-package entity;
+package com.example.rasaAssigment.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

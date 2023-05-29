@@ -1,4 +1,4 @@
-package util;
+package com.example.rasaAssigment.util;
 
 public class VarList {
     public static final String RSP_SUCCESS             = "00";

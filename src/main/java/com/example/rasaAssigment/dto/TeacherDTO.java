@@ -1,4 +1,4 @@
-package dto;
+package com.example.rasaAssigment.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
