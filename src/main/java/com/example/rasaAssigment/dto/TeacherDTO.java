@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 public class TeacherDTO {
 
     private int techID;
-    private String techname;
+    private String techName;
     private String techsureName;
 }
