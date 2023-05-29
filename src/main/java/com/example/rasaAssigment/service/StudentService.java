@@ -47,8 +47,9 @@ public class StudentService {
 
     public String deleteStudent(int stdID){
         if (studentRepo.existsById(stdID)){
-            Student student = studentRepo.findById(stdID).orElse(null);
-            studentRepo.delete(student);
+//            Student student = studentRepo.findById(stdID).orElse(null);
+            studentRepo.deleteById(stdID);
+//            studentRepo.delete(student);
             return VarList.RSP_SUCCESS;
 
         }else {

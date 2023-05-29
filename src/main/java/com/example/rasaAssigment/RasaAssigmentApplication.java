@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 public class RasaAssigmentApplication {
 
 	public static void main(String[] args) {
-		System.out.println("1111111111111111111111111");
 		SpringApplication.run(RasaAssigmentApplication.class, args);
 	}
 
